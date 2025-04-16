@@ -1,0 +1,150 @@
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+
+.produtos {
+  
+  justify-content: center;
+  text-align: center;
+  background-color: #141414;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  border: solid 5px rgb(219, 158, 36);
+}
+
+h2 {
+  color: rgb(235, 238, 240);
+}
+
+p {
+  margin: 30px;
+  color: rgb(250, 193, 5);
+}
+
+.botao {
+  margin-top: 50px;
+  width: 150px;
+  height: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3edd3e; /* Cor de fundo padrão */
+  color: white; /* Cor do texto */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+}
+
+.botao:hover {
+  background-color: #ccf31d; /* Cor de fundo ao passar o mouse */
+  /* Você pode adicionar outras mudanças aqui, como cor do texto, borda, etc. */
+}
+
+div {
+  text-align: center;
+}
+
+.preço {
+  color: #e49c16;
+}
+
+.alinhar {
+  background-color: rgb(61, 63, 66);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+a {
+  text-align: center;
+  
+  
+  text-decoration: none;
+
+}
+ 
+
+nav {
+  text-align: center;
+  background-color: #252323;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li.menu-item {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0a0a0a;
+  background-color: #d5e0e0; /* Cor de fundo do botão */
+  padding: 8px 16px; /* Espaçamento interno do botão */
+  border: 1px solid #f5880c; /* Borda do botão */
+  border-radius: 4px; /* Cantos arredondados do botão */
+  transition: background-color 0.3s ease; /* Transição suave na mudança de cor */
+}
+
+nav a:hover {
+  background-color: #ebc679; /* Cor de fundo do botão ao passar o mouse */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #252323;
+  margin: 0;
+  padding: 0;
+  background-image: url("./imagens/02.webp");
+}
+.alinhar {
+  background-color: #252323;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+text
+.sobre{
+  color: #fd1010;
+  background-color: rgb(245, 210, 97);
+  
+}
+.icone{
+  position: absolute;
+  border-top-width: 100px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
